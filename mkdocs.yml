@@ -1,0 +1,66 @@
+site_name: Calydon Design Doc
+site_description: High-Level Design Document for Calydon, an action-adventure RPG, by Richard Rabil, Jr.
+site_author: Richard Rabil, Jr.
+site_url: https://rrabil.github.io/game-design-documentation/
+repo_url: https://github.com/rrabil/game-design-documentation
+repo_name: View source on GitHub
+edit_uri: edit/main/docs/
+copyright: "&copy; 2011–2026 Richard Rabil, Jr."
+
+nav:
+  - Home: index.md
+  - "1. Quick Sheet": 01-quick-sheet.md
+  - "2. Product Overview": 02-product-overview.md
+  - "3. Purpose and Organization": 03-purpose-and-organization.md
+  - "4. Opening Gameplay": 04-opening-gameplay.md
+  - "5. Races, Characters, and Factions": 05-races-characters-factions.md
+  - "6. Story Structure": 06-story-structure.md
+  - "7. Interface": 07-interface.md
+  - "8. Obstacles": 08-obstacles.md
+  - "9. Level Walkthrough": 09-level-walkthrough.md
+  - "10. Gameplay": 10-gameplay.md
+  - "11. Art": 11-art.md
+  - "12. Audio Requirements": 12-audio-requirements.md
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/book-open-page-variant-outline
+    repo: fontawesome/brands/github
+  features:
+    - navigation.footer      # "Previous / Next" links at the bottom of each page
+    - navigation.top         # "Back to top" button
+    - toc.follow             # right-hand contents follows your scroll position
+    - search.highlight
+    - content.action.edit    # pencil icon linking to the page's source file
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: indigo
+      toggle: {icon: material/weather-night, name: Switch to dark mode}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle: {icon: material/weather-sunny, name: Switch to light mode}
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search

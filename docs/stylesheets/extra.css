@@ -1,0 +1,15 @@
+/* Spec-style tweaks: compact tables, plain headings, visible redaction markers. */
+.md-typeset h1 { font-weight: 600; color: var(--md-default-fg-color); }
+.md-typeset h2 { font-weight: 600; border-bottom: 1px solid var(--md-default-fg-color--lightest); padding-bottom: .2em; }
+.md-typeset h3, .md-typeset h4 { font-weight: 600; }
+.md-typeset table:not([class]) { font-size: .72rem; }
+.md-typeset table:not([class]) th { background: var(--md-default-fg-color--lightest); }
+.md-typeset table:not([class]) td:first-child { font-weight: 600; white-space: nowrap; }
+.md-typeset table:not([class]) td { vertical-align: top; }
+.md-typeset figcaption { font-weight: 600; font-style: normal; max-width: none; }
+.redacted {
+  display: inline-block; padding: 0 .5em; border-radius: 2px;
+  background: var(--md-default-fg-color--lighter); color: var(--md-default-bg-color);
+  font-size: .75em; font-weight: 600; letter-spacing: .05em; text-transform: uppercase;
+}
+.md-typeset table:not([class]) th, .md-typeset table:not([class]) td { padding: .5em 1em; }
