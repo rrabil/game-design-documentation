@@ -2,7 +2,7 @@
 
 A docs-as-code web edition of my 2011 game design document for *Calydon*, an action-adventure RPG built on the Neverwinter Nights Aurora Toolset.
 
-**Live site:** https://rrabil.github.io/game-design-documentation/
+**Live site:** https://gamedesigndoc.richardrabil.com/
 
 Built with [MkDocs](https://www.mkdocs.org/) and the [Material](https://squidfunk.github.io/mkdocs-material/) theme. Each section of the document is one Markdown file in `docs/`. The sidebar order is set in `mkdocs.yml`.
 
