@@ -16,7 +16,7 @@ flowchart LR
 
 </figure>
 
-## 6.2 Part 2: Get assassination quest from Emperor Marcus
+## 6.2 Part 2: Get assassination quest from Emperor
 
 After escaping from the prison, the PC emerges into the palace bailey to find a squadron of soldiers waiting for him. They escort the PC to Emperor Marcus, who then gives the PC the quest to assassinate Samuel the Healer, the living leader of the Calydonians, in exchange for the freedom of the PC and the PC’s sister.
 
